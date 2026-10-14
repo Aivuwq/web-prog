@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>№6 зертханалық жұмыс</title>
+</head>
+
+<body>
+
+  <h2>HTML құжаттарындағы формалар</h2>
+
+  <form>
+
+    <p>
+      <label for="name">Аты-жөніңіз:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+      >
+    </p>
+
+    <p>
+      <label for="password">Пароль:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        maxlength="10"
+      >
+    </p>
+
+    <p>Қай сұрақты таңдайсыз?</p>
+
+    <input
+      type="radio"
+      id="q1"
+      name="question"
+      value="1"
+      checked
+    >
+    <label for="q1">1</label>
+
+    <input
+      type="radio"
+      id="q2"
+      name="question"
+      value="2"
+    >
+    <label for="q2">2</label>
+
+    <input
+      type="radio"
+      id="q3"
+      name="question"
+      value="3"
+    >
+    <label for="q3">3</label>
+
+    <input
+      type="radio"
+      id="q4"
+      name="question"
+      value="4"
+    >
+    <label for="q4">4</label>
+
+    <input
+      type="radio"
+      id="q5"
+      name="question"
+      value="5"
+    >
+    <label for="q5">5</label>
+
+    <p>
+      <label for="answer">Сұраққа жауап енгізіңіз:</label>
+    </p>
+
+    <textarea
+      id="answer"
+      name="answer"
+      rows="4"
+      cols="60"
+    >?????</textarea>
+
+    <br><br>
+
+    <input
+      type="reset"
+      value="Форманы тазарту"
+    >
+
+    <input
+      type="submit"
+      value="Мәліметтерді жөнелту"
+    >
+
+  </form>
+
+</body>
+</html>
